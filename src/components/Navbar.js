@@ -1,7 +1,5 @@
 import React from 'react';
-//import './main.js';
-//import './jquery-library.js';
-//import './jquery-ui.js';
+
 
 export class Navbar extends React.Component {
   render() {
@@ -10,7 +8,7 @@ export class Navbar extends React.Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<nav id="tg-nav" class="tg-nav">
+							<nav id="tg-nav" className="tg-nav">
 								<div className="navbar-header">
 									<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
 										<span className="sr-only">Toggle navigation</span>
@@ -55,7 +53,7 @@ export class Navbar extends React.Component {
 														<a href="#sciencefiction" aria-controls="sciencefiction" role="tab" data-toggle="tab">Science Fiction</a>
 													</li>
 												</ul>
-												<div class="tab-content tg-themetabcontent">
+												<div className="tab-content tg-themetabcontent">
 													<div role="tabpanel" className="tab-pane active" id="artandphotography">
 														<ul>
 															<li>
@@ -195,7 +193,7 @@ export class Navbar extends React.Component {
 																<a className="tg-btnviewall" href="products.html">View All</a>
 															</li>
 															<li>
-																<div class="tg-linkstitle">
+																<div className="tg-linkstitle">
 																	<h2>History</h2>
 																</div>
 																<ul>
@@ -628,7 +626,7 @@ export class Navbar extends React.Component {
 										<li><a href="products.html">Weekly Sale</a></li>
 										<li className="menu-item-has-children">
 											<a href="javascript:void(0);">Latest News</a>
-											<ul class="sub-menu">
+											<ul className="sub-menu">
 												<li><a href="newslist.html">News List</a></li>
 												<li><a href="newsgrid.html">News Grid</a></li>
 												<li><a href="newsdetail.html">News Detail</a></li>
@@ -636,7 +634,7 @@ export class Navbar extends React.Component {
 										</li>
 										<li><a href="contactus.html">Contact</a></li>
 										<li className="menu-item-has-children current-menu-item">
-											<a href="javascript:void(0);"><i class="icon-menu"></i></a>
+											<a href="javascript:void(0);"><i className="icon-menu"></i></a>
 											<ul className="sub-menu">
 												<li className="menu-item-has-children">
 													<a href="aboutus.html">Products</a>

@@ -11,7 +11,7 @@ export class Middlebar extends React.Component {
 						<strong className="tg-logo"><a href="index.html"><img src="images/logo.png" alt="company name here"/></a></strong>
 						<div className="tg-wishlistandcart">
 							<div className="dropdown tg-themedropdown tg-wishlistdropdown">
-								<a href="javascript:void(0);" id="tg-wishlisst" class="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a href="javascript:void(0);" id="tg-wishlisst" className="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									<span className="tg-themebadge">3</span>
 									<i className="icon-heart"></i>
 									<span>Wishlist</span>
@@ -22,7 +22,7 @@ export class Middlebar extends React.Component {
 							</div>
 							<div className="dropdown tg-themedropdown tg-minicartdropdown">
 								<a href="javascript:void(0);" id="tg-minicart" className="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<span class="tg-themebadge">3</span>
+									<span className="tg-themebadge">3</span>
 									<i className="icon-cart"></i>
 									<span>$123.00</span>
 								</a>
@@ -61,7 +61,7 @@ export class Middlebar extends React.Component {
 									</div>
 									<div className="tg-minicartfoot">
 										<a className="tg-btnemptycart" href="javascript:void(0);">
-											<i class="fa fa-trash-o"></i>
+											<i className="fa fa-trash-o"></i>
 											<span>Clear Your Cart</span>
 										</a>
 										<span className="tg-subtotal">Subtotal: <strong>35.78</strong></span>
