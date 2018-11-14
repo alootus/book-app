@@ -12,8 +12,8 @@ export class Header extends React.Component {
 
         <header id="tg-header" className="tg-header tg-haslayout">
         	<Topbar></Topbar>
-            <Middlebar></Middlebar>
-            <Navbar></Navbar>
+          <Middlebar></Middlebar>
+          <Navbar></Navbar>
         </header>
 
     );

@@ -4,10 +4,11 @@ import React from 'react';
 
 
 
-export class SlideTwo extends React.Component {
+export class Slideone extends React.Component {
   render() {
     return (
-		<div className="item" data-vide-bg="poster: images/slider/img-01.jpg" data-vide-options="position: 0% 50%">
+
+        <div className="item" data-vide-bg="poster: images/slider/img-01.jpg" data-vide-options="position: 0% 50%">
 			<div className="container">
 				<div className="row">
 					<div className="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2">
@@ -24,11 +25,12 @@ export class SlideTwo extends React.Component {
 							</div>
 						</div>
 					</div>
-			    </div>
+				</div>
 			</div>
 		</div>
+
     );
   }
 }
 
-export default SlideTwo;
+export default Slideone;

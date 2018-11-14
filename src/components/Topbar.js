@@ -1,4 +1,6 @@
 import React from 'react';
+import Loginbtn from './Loginbtn';
+import Userdetails from './Userdetails';
 
 
 export class Topbar extends React.Component {
@@ -48,10 +50,7 @@ export class Topbar extends React.Component {
 								</li>
 							</ul>
 						</div>
-						<div className="tg-userlogin">
-							<figure><a href="javascript:void(0);"><img src="images/users/img-01.jpg" alt="image description"/></a></figure>
-							<span>Hi, Melonie</span>
-						</div>
+							<Loginbtn></Loginbtn>
 					</div>
 				</div>
 			</div>

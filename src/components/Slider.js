@@ -1,6 +1,6 @@
 import React from 'react';
-import SlideOne from './SlideOne';
-import SlideTwo from './SlideTwo';
+import Slideone from './Slideone';
+import Slidetwo from './Slidetwo';
 
 
 
@@ -10,10 +10,9 @@ export class Slider extends React.Component {
     return (
 
         <div id="tg-homeslider" className="tg-homeslider tg-haslayout owl-carousel">
-            <SlideOne></SlideOne>
+            <Slideone></Slideone>
             
-            <SlideTwo></SlideTwo>
-            <p>TEST</p>
+            <Slidetwo></Slidetwo>
         </div>
 
     );
