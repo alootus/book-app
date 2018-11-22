@@ -46,7 +46,7 @@ export class Loginpage extends React.Component {
                                             </div>
                                             <div className="col-xs-6">
                                                 <div className="submit-holder">
-                                                    <button type="submit">Login</button>
+                                                    <button type="submit"><Link to='/user'>Login</Link></button>
                                                 </div>
                                             </div>
                                         </div>

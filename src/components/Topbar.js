@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+	BrowserRouter as Router,
+	Route,
+	Link
+} from 'react-router-dom';
+
 import Loginbtn from './Loginbtn';
 import Userdetails from './Userdetails';
 
@@ -50,7 +56,8 @@ export class Topbar extends React.Component {
 								</li>
 							</ul>
 						</div>
-							<Loginbtn/>
+						<Route path='/' exact component={Loginbtn} />
+						<Route path='/user' exact component={Userdetails} />
 					</div>
 				</div>
 			</div>

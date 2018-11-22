@@ -628,7 +628,7 @@ export class Navbar extends React.Component {
 												<li><a href="newsdetail.html">News Detail</a></li>
 											</ul>
 										</li>
-										<li><a href="contactus.html">Contact</a></li>
+										<li><Link to="/contact">Contact</Link></li>
 										<li className="menu-item-has-children current-menu-item">
 											<a href="javascript:void(0);"><i className="icon-menu"></i></a>
 											<ul className="sub-menu">
