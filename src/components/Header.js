@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Topbar from './Topbar';
 import Middlebar from './Middlebar';
 import Navbar from './Navbar';
@@ -11,9 +11,9 @@ export class Header extends React.Component {
     return (
 
         <header id="tg-header" className="tg-header tg-haslayout">
-        	<Topbar></Topbar>
-          <Middlebar></Middlebar>
-          <Navbar></Navbar>
+        	<Topbar/>
+          <Middlebar/>
+          <Navbar/>
         </header>
 
     );

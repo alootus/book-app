@@ -10,9 +10,8 @@ export class Slider extends React.Component {
     return (
 
         <div id="tg-homeslider" className="tg-homeslider tg-haslayout owl-carousel">
-            <Slideone></Slideone>
-            
-            <Slidetwo></Slidetwo>
+            <Slideone/>
+            <Slidetwo/>
         </div>
 
     );

@@ -27,30 +27,30 @@ export class Topbar extends React.Component {
 						<div className="dropdown tg-themedropdown tg-currencydropdown">
 							<a href="javascript:void(0);" id="tg-currenty" className="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i className="icon-earth"></i>
-								<span>Currency</span>
+								<span>Language</span>
 							</a>
 							<ul className="dropdown-menu tg-themedropdownmenu" aria-labelledby="tg-currenty">
 								<li>
 									<a href="javascript:void(0);">
-										<i>£</i>
-										<span>British Pound</span>
+										<i>EN</i>
+										<span>English</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:void(0);">
-										<i>$</i>
-										<span>Us Dollar</span>
+										<i>EST</i>
+										<span>Estonian</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:void(0);">
-										<i>€</i>
-										<span>Euro</span>
+										<i>RUS</i>
+										<span>Russian</span>
 									</a>
 								</li>
 							</ul>
 						</div>
-							<Loginbtn></Loginbtn>
+							<Loginbtn/>
 					</div>
 				</div>
 			</div>

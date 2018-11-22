@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+	Link
+} from 'react-router-dom';
 
 
 export class Navbar extends React.Component {
@@ -607,19 +610,12 @@ export class Navbar extends React.Component {
 												</div>
 											</div>
 										</li>
-										<li className="menu-item-has-children current-menu-item">
-											<a href="javascript:void(0);">Home</a>
-											<ul className="sub-menu">
-												<li className="current-menu-item"><a href="index.html">Home V one</a></li>
-												<li><a href="indexv2.html">Home V two</a></li>
-												<li><a href="indexv3.html">Home V three</a></li>
-											</ul>
-										</li>
+										<li><Link to="/">Home</Link></li>
 										<li className="menu-item-has-children">
 											<a href="javascript:void(0);">Authors</a>
 											<ul className="sub-menu">
-												<li><a href="authors.html">Authors</a></li>
-												<li><a href="authordetail.html">Author Detail</a></li>
+												<li><Link to="/authors">Authors</Link></li>
+												<li><Link to="/authors_detail">Author Detail</Link></li>
 											</ul>
 										</li>
 										<li><a href="products.html">Best Selling</a></li>
@@ -644,8 +640,8 @@ export class Navbar extends React.Component {
 													</ul>
 												</li>
 												<li><a href="aboutus.html">About Us</a></li>
-												<li><a href="404error.html">404 Error</a></li>
-												<li><a href="comingsoon.html">Coming Soon</a></li>
+												<li><a href="404error.html">Terms</a></li>
+												<li><a href="comingsoon.html">FAQ</a></li>
 											</ul>
 										</li>
 									</ul>

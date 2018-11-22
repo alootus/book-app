@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
+import {
+	BrowserRouter as Router,
+	Route,
+	Link
+} from 'react-router-dom';
+
 import Header from './components/Header';
 import Slider from './components/Slider';
+import Loginpage from './components/Loginpage';
+import Signuppage from './components/Signuppage';
+import Footer from './components/Footer';
 
 //import Middlebar from './components/Middlebar';
 //import Navbar from './components/Navbar';
@@ -8,14 +17,16 @@ import Slider from './components/Slider';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div id="tg-wrapper" className="tg-wrapper tg-haslayout">
-          <Header></Header>
-          <Slider></Slider>
-          <p>Testime lehte</p>
-          
+      <Router>
+        <div className="App">
+          <div id="tg-wrapper" className="tg-wrapper tg-haslayout">
+            <Route path='/' exact component={Header} />
+            <Route path='/signin' exact component={Loginpage} />
+            <Route path='/signup' exact component={Signuppage} />
+            <Route path='/' exact component={Footer} />
+          </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
